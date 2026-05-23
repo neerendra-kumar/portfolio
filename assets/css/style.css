@@ -30,7 +30,7 @@ body {
 }
 
 section {
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 img {
@@ -578,6 +578,12 @@ nav {
     height: 340px;
     border: none;
 }
+.video-card video {
+    width: 100%;
+    height: 340px;
+    border: none;
+    object-fit: cover;
+}
 
 .video-content {
     padding: 24px;
@@ -675,6 +681,9 @@ footer {
     .video-card iframe {
         height: 230px;
     }
+    .video-card video {
+        height: 230px;
+    }
 
     .contact-box {
         padding: 45px 25px;
@@ -689,6 +698,6 @@ footer {
     }
 
     section {
-        padding: 55px 0;
+        padding: 20px 0;
     }
 }
